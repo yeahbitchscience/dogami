@@ -28,6 +28,37 @@
   color: #61dafb;
 }
 
+.warningpage {
+  background-image: linear-gradient(to right bottom, #3a0962, #3d0a5d, #400c59, #420f54, #431150);
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.typewriter {
+  color: rgb(255,255,255);
+  font-size: 0.9em;
+  text-align: left;
+  padding-left:5vw;
+  font-family: Ubuntu, sans-serif, "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  margin: 0;
+  position: absolute;
+  top: 48%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  
+}
+
+.typing {
+  margin: 0;
+  background-color: red;
+  width: 20px;
+  height: 20px;
+}
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +67,16 @@
     transform: rotate(360deg);
   }
 }
+
+.image{
+  width:100vw;
+
+  position: absolute;
+  bottom: 0px;
+}
+
+.dog{
+  width: 20rem;
+  height: 20rem;
+}
+
